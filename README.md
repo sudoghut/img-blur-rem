@@ -4,7 +4,8 @@ blur the whole image and clear part of that image for reciting
 
 # Prerequisites
 
-PIL(Pillow) Tkinter
+PIL(Pillow)
+Tkinter
 
 # Usage
 

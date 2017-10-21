@@ -19,6 +19,6 @@ PIL(Pillow) Tkinter
     right arrow: next image
     left arrow: former image
 
-#License
+# License
 
 This project is licensed under the MIT License

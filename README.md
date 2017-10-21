@@ -4,7 +4,10 @@ blur the whole image and clear part of that image for reciting
 
 # Prerequisites
 
+Python 3
+
 PIL(Pillow)
+
 Tkinter
 
 # Usage

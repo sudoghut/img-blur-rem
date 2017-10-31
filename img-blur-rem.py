@@ -69,10 +69,10 @@ class img_blur_rem(tkinter.Frame):
         root.bind("<Escape>", esc_clear)
         root.bind("<c>", no_gaussianblur)
         #linux scroll
-        self.canvas.bind("<Button-4>", self.zoomerP)
-        self.canvas.bind("<Button-5>", self.zoomerM)
+        #self.canvas.bind("<Button-4>", self.zoomerP)
+        #self.canvas.bind("<Button-5>", self.zoomerM)
         #windows scroll
-        self.canvas.bind("<MouseWheel>",self.zoomer)
+        #self.canvas.bind("<MouseWheel>",self.zoomer)
         root.bind("<Left>", to_before)
         root.bind("<Right>", to_next)
         canvas = self.canvas

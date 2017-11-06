@@ -195,6 +195,7 @@ def esc_clear(event):
     # canvas.image = image_tk
 
     image = Image.open(file_path+file_list[list_index_pointer])
+    print(list_index_pointer)
     ratio = float(width)/image.size[0]
     height = int(image.size[1]*ratio)
     canvas.config(width=width, height=height)
@@ -217,6 +218,5 @@ if __name__ == "__main__":
     file_list = os.listdir(file_path)
     random.shuffle(file_list)
     #print(file_list) 
-    list_index_pointer+=1
-    img_blur_rem(root, file_path+file_list[list_index_pointer-1]).pack(fill="both", expand=True)
+    img_blur_rem(root, file_path+file_list[list_index_pointer]).pack(fill="both", expand=True)
     root.mainloop()
